@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> ByteSize Web Solutions</title>
+        <meta name="description" content="Your business starts here!">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link rel="stylesheet" href="output.css">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+
+
+    </head> 
+<body class="overflow-x-hidden">
+    <!-- This is the Nav Bar-->
+    <nav class="bg-white p-4 shadow-md shadow-gray-300 top-0 w-full fixed z-50">
+        <div class="container mx-auto flex items-center justify-between">
+            <!-- This makes the image in my nav bar -->
+            <div class="flex items-center">
+                <img src="new nav bar logo.png" alt="Logo" class="mr-2">
+            </div>
+            <div class="flex space-x-4">
+                <a data-aos="fade-up" data-aos-duration="500" href="#hero-section" class="text-orange-500 text-sm md:text-base">Home</a>
+                <a data-aos="fade-up" data-aos-duration="750" href="#about" class="text-orange-500 text-sm md:text-base">About</a>
+                <a data-aos="fade-up" data-aos-duration="1000" href="#services" class="text-orange-500 text-sm md:text-base">Services</a>
+                <a data-aos="fade-up" data-aos-duration="1250" href="#the-team" class="text-orange-500 text-sm md:text-base">Team</a>
+                <a data-aos="fade-up" data-aos-duration="1500" href="#FAQ" class="text-orange-500 text-sm md:text-base">FAQ</a>
+            </div>
+            <!-- Flashing Call to action button to attract prospective emplyees -->
+            <a data-aos="fade-down-left" data-aos-duration="750" href="jobapplication.html" class="text-white text-sm md:text-base bg-orange-500 hover:bg-green hover:scale-110 md:py-3 md:px-6 rounded-full md:flex hidden">Apply Now!</a>
+        </div>
+    </nav>
+    
+<!-- Hero Section Content -->
+    <sectio id="hero-section" class="w-full h-full overflow-hidden">
+        <!-- Everything is in a grid to make it responsive by moving the image to the bottom on mobile  -->
+        <!-- Position absolute centers the Particles container and makes it act a dynamic background -->
+        <div id="particles-js" class="absolute inset-0"></div>
+        <div class="grid grid-cols-1 md:grid-cols-2 h-screen">
+            <div class="flex items-center justify-center text-white">
+                <!-- Box for the Name and Get Started button-->
+                <div class="max-w-md mx-8">
+                    <h1 id="hero-title" class="text-4xl md:text-7xl mb-4 text-orange-500" data-aos="fade-up" data-aos-duration="1000"></h1>
+                    <p id="hero-subtitle" class="text-base md:text-lg font-semibold text-black" data-aos="fade-up" data-aos-duration="1500"></p>
+                    <a href="#services" class="hover:scale-110 mt-4 inline-block bg-orange-500 text-slate-200 py-2 px-4 rounded-full hover:bg-orange-400 hover:text-white" data-aos="fade-up" data-aos-duration="2000">Get Started</a>
+                </div>
+            </div>
+            <!-- This is for the image on the right -->
+            <div class="flex items-center justify-center">
+                <img data-aos="fade-left" data-aos-duration="1000" src="website LIGHT.png" alt="App Screenshot" class="max-w-full h-auto">
+            </div>
+        </div>
+    </section>
+    
+<!-- About us Section Content -->
+<section class="bg-white shadow-sm shadow-black" id="about">
+    <!-- This is for the Who Are We? section -->
+    <h1 data-aos="fade-up" data-aos-duration="1000" class="text-orange-500 text-6xl sm:text-4xl p-12 font-bold">Who are we?</h1>
+    <div class="grid lg:grid-cols-3 gap-12 p-10">
+        <div data-aos="fade-right" data-aos-duration="1000" class="col-span-2 bg-white p-2 text-center border-t-4 border-orange-500">
+            <!-- Adjusted text sizes for different screen sizes -->
+            <p class="text-xl sm:text-lg md:text-3xl lg:text-4xl text-black p-4 sm:p-6 md:p-8 lg:p-12 font-thin">
+                We're a dedicated team of creative web designers committed to delivering captivating digital experiences. With a passion for innovation and an unwavering focus on quality, we transform ideas into visually stunning, user-friendly websites that leave a lasting impression. We strongly value creativity, client-centricity, and transparency. We pride ourselves on collaboration, reliability, and a deep commitment to staying at the forefront of web design trends. With sustainability and a love for what we do at the heart of our work, we're here to bring your web dreams to life.
+            </p>
+        </div>
+        <div>
+            <img data-aos="fade-down" data-aos-duration="1000" class="justify-center" src="team infographic.png">
+        </div>
+    </div>    
+<!-- Both of these use a grid system as well for the responsiveness and to switch whick side the image is on without changing the textbox -->
+<!-- This is for the Why Us? section-->
+    <h1 data-aos="fade-up" data-aos-duration="1000" class="text-orange-500 text-6xl lg:text-4xl md:text-2xl sm:text-lg p-12 font-bold text-right">Why us?</h1>
+    <div class="grid lg:grid-cols-3 gap-12 p-10">
+        <div>
+            <img data-aos="fade-up" data-aos-duration="1000" class="justify-center" src="why us infographic.png">
+        </div>
+        <div data-aos="fade-left" data-aos-duration="1000" class="col-span-2 bg-white p-2 text-center border-t-4 border-orange-500">
+            <p class="text-xl sm:text-lg md:text-3xl lg:text-4xl text-black p-4 sm:p-6 md:p-8 lg:p-12 font-thin">
+                <!-- Adjusted text sizes for different screen sizes -->
+                When it comes to selecting a web design partner, ByteSize Web Solutions shines as the frontrunner due to our steadfast dedication to crafting personalized, cutting-edge solutions that truly capture the essence of your brand's individuality. With a well-established history of successful projects, a customer-centric approach that guarantees exceptional service, and competitive pricing that offers value for your investment, we provide a seamless and cost-effective journey, positioning us as the perfect collaborator for building a remarkable online presence that sets your business apart from the competition.
+            </p>
+        </div>
+    </div>
+</section>
+
+
+<!-- This section is for the profile cards of the developers and employees -->
+<section id="the-team" class="bg-white py-10 md:py-20">
+    <div class="container mx-auto p-4">
+        <h1 class="text-4xl font-bold mb-8 text-center text-orange-500 p-2">Meet the Team</h1>
+        <div class="bg-white rounded-md border-b-4 border-orange-500">
+            <div class="grid grid-cols-1 lg:grid-cols-3 p-10 items-center">
+                <div class="flex items-center flex-col">
+                    <!-- Image -->
+                    <img data-aos="fade-down-right" data-aos-duration="1500" src="IMG_2538.JPG" class="rounded-full w-2/3 h-2/3 items-center">
+                    <!-- Name and role -->
+                    <h1 data-aos="fade-down-right" data-aos-duration="700" class="text-2xl text-center p-2 font-bold">Isaac Bell</h1>
+                    <p data-aos="fade-down-right" data-aos-duration="800" class="text-center">Web Designer, Founder</p>
+                    <!-- Social links -->
+                    <div class="flex justify-center gap-5">
+                        <a data-aos="fade-down-right" data-aos-duration="700" href="https://www.linkedin.com/in/isaac-bell-09b5a6262/" target="_blank"><img class="hover:scale-110" src="icons8-linkedin-50.png"></a>
+                        <a data-aos="fade-down-right" data-aos-duration="800" href="https://twitter.com" target="_blank"><img class="hover:scale-110" src="icons8-twitter-50.png"></a>
+                        <a data-aos="fade-down-right" data-aos-duration="950" href="https://github.com/MrDoge905" target="_blank"><img class="hover:scale-110" src="icons8-github-48.png"></a>
+                    </div>
+                </div>
+                <div class="col-span-2 lg:col-span-2">
+                    <!-- Text box -->
+                    <p data-aos="fade-down-left" data-aos-duration="1500" class="text-center text-xl sm:text-lg md:text-xl lg:text-2xl text-black p-4 sm:p-6 md:p-8 lg:p-12 font-thin">
+                        My name is Isaac Bell. I am a 17-year-old with a passion for technology and a strong drive to learn and grow. I'm currently a student at Somerset Area Senior High School, where I'm pursuing my high school education. In addition, I'm also enrolled at the Somerset County Technology Center, where I'm honing my skills in the field of computer networking. I'm a firm believer in the power of technology to drive positive change, and I'm enthusiastic about the endless possibilities it offers. In my free time, I enjoy tinkering with computers and exploring new software. I also love staying up-to-date with the latest tech trends and developments. My goal is to continue my education, build a successful career in the tech industry, and contribute to the ever-evolving world of technology. I'm always eager to learn, adapt, and take on new challenges. Feel free to reach out and connect with me on this exciting journey!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- This section is for my services -->
+<section id="services" class="bg-white py-20 ">
+    <div class="container mx-auto text-center">
+        <h2 id="service" class="text-3xl font-bold text-orange-500 mb-6"></h2>
+        <!-- did i say i used LOTS of grids yet -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+          <!-- Service Card 1 -->
+          <div data-aos="fade-right" data-aos-duration="1500" class="bg-white p-4 rounded-lg shadow-md shadow-slate-300">
+            <h3 class="text-xl font-semibold text-orange-500 mb-2 ">Web Design & Development</h3>
+            <div class="flex justify-center">
+                <!-- i used the hover scale pseudo selector so that way when you hover-->
+              <img class="hover:scale-110" src="icons8-web-design-55.png">
+            </div>
+           <p class="text-black">Our team of web designers and programmers has plenty of experience designing websites for all purposes and applications.</p>
+          </div>
+
+          <!-- Service Card 2 -->
+          <div data-aos="fade-right" data-aos-duration="2000" class="bg-white p-4 rounded-lg shadow-md shadow-slate-300">
+            <h3 class="text-xl font-semibold text-orange-500 mb-2">Search Engine Optimization</h3>
+            <div class="flex justify-center">
+                <img class="hover:scale-110" src="icons8-search-engine-optimization-32.png">
+            </div>
+            <p class="text-black">Making a website is one thing, but people finding your website is the second most important feature so that your website actually reaches your audience.</p>
+          </div>
+    
+          <!-- Service Card 3 -->
+          <div data-aos="fade-right" data-aos-duration="2500" class="bg-white p-4 rounded-lg shadow-md shadow-slate-300">
+            <h3 class="text-xl font-semibold text-orange-500 mb-2">Web Hosting</h3>
+            <div class="flex justify-center">
+                <img class="hover:scale-110" src="icons8-website-48.png">
+            </div>
+            <p class="text-black">You don't need to worry about finding out how to host your website; we have you covered.</p>
+          </div>
+          <!-- Service Card 4 -->
+          <div data-aos="fade-left" data-aos-duration="1500" class="bg-white p-4 rounded-lg shadow-md shadow-slate-300">
+            <h3 class="text-xl font-semibold text-orange-500 mb-2">24/7 Quality Assurance</h3>
+            <div class="flex justify-center">
+                <img class="hover:scale-110" src="icons8-24-7-48.png">
+            </div>
+            <p class="text-black">Our job is not done after your website goes up; you will have 24/7 support from the point your website goes up until it goes down.</p>
+          </div>
+          <!-- Service Card 5-->
+          <div data-aos="fade-left" data-aos-duration="2000" class="bg-white p-4 rounded-lg shadow-md shadow-slate-300">
+            <h3 class="text-xl font-semibold text-orange-500 mb-2">Free Consultation</h3>
+            <div class="flex justify-center">
+                <img class="hover:scale-110" src="icons8-consult-64.png">
+            </div>
+            <p class="text-black">Aren't websites expensive? They may not be as expensive as you think; call for a free consultation today!</p>
+          </div>
+          <!-- Service Card 6-->
+          <div data-aos="fade-left" data-aos-duration="2500" class="bg-white p-4 rounded-lg shadow-md shadow-slate-300">
+            <h3 class="text-xl font-semibold text-orange-500 mb-2">Website Analytics</h3>
+            <div class="flex justify-center">
+                <img class="hover:scale-110" src="icons8-analytics-48.png">
+            </div>
+            <p class="text-black">Curious as to how your website is performing? With services like Google Analytics, you are able to see the traffic on your website.</p>
+          </div>
+          <!-- Service Card 7-->
+          <div data-aos="fade-right" data-aos-duration="2500" class="bg-white p-4 rounded-lg shadow-md shadow-slate-300">
+            <h3 class="text-xl font-semibold text-orange-500 mb-2">Website Security</h3>
+            <div class="flex justify-center">
+                <img class="hover:scale-110" src="icons8-web-security-53.png">
+            </div>
+            <p class="text-black">Does your website have sensitive user input or data on it? No worries; we have web security to keep you and your users safe.</p>
+          </div>
+          <!-- Service Card 8 -->
+          <div data-aos="fade-right" data-aos-duration="2500" class="bg-white p-4 rounded-lg shadow-md shadow-slate-300">
+            <h3 class="text-xl font-semibold text-orange-500 mb-2">Social Media Integration</h3>
+            <div class="flex justify-center">
+                <img class="hover:scale-110" src="icons8-media-48.png">
+            </div>
+            <p class="text-black">Advertise your other platforms as well, and make your website more expandable with options to share on social platforms.</p>
+          </div>
+          <!-- Service Card 9 -->
+          <div data-aos="fade-right" data-aos-duration="2500" class="bg-white p-4 rounded-lg shadow-md shadow-slate-300">
+            <h3 class="text-xl font-semibold text-orange-500 mb-2">Client Training</h3>
+            <div class="flex justify-center">
+                <img class="hover:scale-110" src="icons8-training-64.png">
+            </div>
+            <p class="text-black">How would I use the analytics on my website or any of the plugins on my site? No worries; we train you on how to use your website functions.</p>
+          </div>
+        </div>
+      </div>
+</section>
+<!-- This sections is for the process as soon as someone buys -->
+<section class="bg-white p-12">
+    <h1 class="text-center text-3xl text-orange-500 font-bold p-10 border-t-4 border-orange-500"> Process after choosing us.</h1>
+    <div class="text-center mx-auto bg-white rounded-lg shadow p-6">
+        <!-- Step 1 -->
+        <div data-aos="fade-left" data-aos-duration="750" class="mb-4">
+            <h2 class="text-2xl text-orange-500 font-bold">Step 1: Initial Consultation</h2>
+            <p class="text-black">We start by scheduling an initial consultation to understand your project requirements, goals, and expectations.</p>
+        </div>
+        <!-- Step 2 -->
+        <div data-aos="fade-right" data-aos-duration="750" class="mb-4">
+            <h2 class="text-2xl text-orange-500 font-bold">Step 2: Proposal and Agreement</h2>
+            <p class="text-black">Based on our discussion, we'll provide you with a detailed proposal and contract outlining the scope of work, timeline, and cost.</p>
+        </div>
+        <!-- Step 3-->
+        <div data-aos="fade-left" data-aos-duration="750" class="mb-4">
+            <h2 class="text-2xl text-orange-500 font-bold">Step 3: Design and Development</h2>
+            <p class="text-black">Our team will start the design and development process, keeping you updated on the progress and seeking your feedback along the way.</p>
+        </div>
+        <!-- Step 4 -->
+        <div data-aos="fade-right" data-aos-duration="750" class="mb-4">
+            <h2 class="text-2xl text-orange-500 font-bold">Step 4: Testing and Revisions</h2>
+            <p class="text-black">We'll thoroughly test the website and make necessary revisions to ensure it meets your expectations and functions flawlessly.</p>
+        </div>
+        <!-- Step 5-->
+        <div data-aos="fade-left" data-aos-duration="750" class="mb-4">
+            <h2 class="text-2xl text-orange-500 font-bold">Step 5: Final Delivery</h2>
+            <p class="text-black">Once everything is approved and tested, we'll deliver the completed project.</p>
+        </div>
+    </div>
+</section>
+<!-- This is for the FAQ section for new customers -->
+<section id="FAQ" class="py-12 bg-white">
+    <div class="max-w-full mx-auto bg-white rounded-lg shadow p-6">
+        <h1 class="text-5xl text-center text-gray-800 font-semibold mb-6">Frequently Asked Questions</h1>
+        <p class="text-center p-6 text-lg">Have a different question? Consider emailing us; we would be more than happy to help!</p>
+        <div class="mb-4">
+            <h2 class="text-2xl text-center font-semibold text-orange-500">How do I get started with your services?</h2>
+            <div class="text-xl text-black text-center mt-2">To get started with our services, simply fill out our contact form or give us a call. We'll schedule an initial consultation to discuss your needs and provide you with a proposal.</div>
+        </div>
+
+        <div class="mb-4">
+            <h2 class="text-2xl text-center font-semibold text-orange-500">What are your pricing options?</h2>
+            <div class="text-xl text-black text-center mt-2">Our pricing varies depending on the scope of the project. We provide customized quotes based on your specific requirements. Contact us for a free quote.</div>
+        </div>
+
+        <div class="mb-4">
+            <h2 class="text-2xl text-center font-semibold text-orange-500">How long does it take to complete a web design project?</h2>
+            <div class="text-xl text-black text-center mt-2">The project timeline depends on the complexity of your website. We'll provide you with an estimated timeline in the proposal. Typically, projects can take several weeks to a few months.</div>
+        </div>
+
+        <div class="mb-4">
+            <h2 class="text-2xl text-center font-semibold text-orange-500">What kind of support do you offer after the website is live?</h2>
+            <div class=" text-xl text-black text-center mt-2">We offer ongoing support and maintenance packages to ensure your website runs smoothly. You can choose from various support plans to suit your needs.</div>
+        </div>
+    </div>
+</section>
+<!-- This Section is for our Social Media -->
+<section class="bg-white">
+    <h1 class="text-2xl font-bold text-center text-orange-500 border-t-4 border-orange-500 p-4">Our Social Media</h1>
+    <div class="flex justify-around max-w-screen-md mx-auto py-1">
+        <a data-aos="flip-up" data-aos-duration="750" href="https://www.linkedin.com/in/isaac-bell-09b5a6262/" target="_blank"><img class="hover:scale-125" src="icons8-linkedin-240.png"></a>
+        <a data-aos="flip-up" data-aos-duration="1000" href="https://facebook.com" target="_blank"><img class="hover:scale-125" src="icons8-facebook-240.png"></a>
+        <a data-aos="flip-up" data-aos-duration="1500" href="https://instagram.com" target="_blank"><img class="hover:scale-125" src="icons8-instagram-240.png"></a>
+    </div>
+</section>
+<!-- This Section is for prospective employees -->
+<section id="apply" class="bg-white">
+    <div class="container mx-auto p-4">
+        <h1 class="text-4xl font-bold text-orange-500 text-center mt-4">Job Opportunities</h1>
+        <p class="text-center my-4 text-black">We are currently hiring for various positions. To apply, please click the link below to fill out our job application form:</p>
+        <div class="text-center"> 
+            <a href="jobapplication.html" class="bg-orange-500 text-white font-semibold py-3 px-6 rounded-lg hover:bg-orange-700">Apply Now</a>
+        </div>
+    </div>
+</section>
+<!-- This Section is for our Contact Info -->
+<Section class="bg-white">
+    <h1 class="text-5xl text-orange-500 text-center font-bold p-10">Contact Us.</h1>
+    <div class="grid lg:grid-cols-3 gap-12 p-10">
+        <div class="bg-orange-500 text-center rounded-xl">
+            <h1 class="text-white text-2xl">Address</h1>
+            <p class="text-white">123 Street Name, City, State, Zip Code</p>
+        </div>
+        <div class="bg-orange-500 text-center rounded-xl">
+            <h1 class="text-white text-2xl">Email</h1>
+            <p class="text-white">info@bytesize.com</p>
+        </div>
+        <div class="bg-orange-500 text-center rounded-xl">
+            <h1 class="text-white text-2xl">Phone Number</h1>
+            <p class="text-white">(123)-456-7890</p>
+        </div>
+
+    </div>
+</Section>
+<footer class="bg-slate-300">
+    <div class="text-center flex flex-wrap justify-center">
+        <div class="p-4"><a href="http://icons8.com/icons" target="_blank">Icons8 Icons</a></div>
+        <div class="p-4"><a href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a></div>
+        <div class="p-4"><a href="https://www.stickpng.com/img/icons-logos-emojis/tech-companies/python-logo" target="_blank">Python Icon</a></div>
+        <div class="p-4"><a href="https://www.stickpng.com/img/icons-logos-emojis/tech-companies/w3c-html5-logo" target="_blank">HTML Icon</a></div>
+        <div class="p-4"><a href="https://www.stickpng.com/img/icons-logos-emojis/iconic-brands/javascript-logo" target="_blank">JavaScript Logo</a></div>
+        <div class="p-4"><a href="https://vincentgarreau.com/particles.js/" target="_blank">Particles.js</a></div>
+        <div class="p-4"><a href="https://www.adobe.com/express/" target="_blank">Adobe Express</a></div>
+        <div class="p-4"><a href="https://michalsnik.github.io/aos/" target="_blank">AOS animation</a></div>
+        <div class="p-4"><a href="https://docs.hcaptcha.com/" target="_blank">Captcha</a></div>
+        <div class="p-4"><a href="https://formcarry.com/" target="_blank">Formcarry</a></div>
+        <div class="p-4"><a href="https://quillbot.com/grammar-check" target="_blank">Quillbot Grammar</a></div>
+    </div>
+    <div class="text-center flex justify-center">
+        <div class="p-4"><a href="">ByteSize Solutions LLC.</a></div>
+    </div>
+</footer>
+<!-- This is to import the typewriter JavaScript Library-->
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+<script>
+    // this is to do the typing effect on my title for my hero page
+    var titleTypewriter = new Typewriter('#hero-title', {
+        loop: false,
+        cursor: " ",
+        delay: 40,
+    });
+    // this is to do the typing effect on the subtitle on my hero page
+    var subtitleTypewriter = new Typewriter('#hero-subtitle', {
+        loop: false,
+        cursor: " ",
+        delay: 40,
+    });
+
+    // Stop typing after a certain delay using the stop method
+    titleTypewriter
+    .typeString("Bytesize Web Solutions")
+    .pauseFor(300)
+    .start();
+
+    subtitleTypewriter
+    .typeString("Your business starts here.")
+    .pauseFor(300)
+    .start();
+</script>
+
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+  </script>
+  <script src="particles.js"></script>
+  <script src="app.js"></script>
+
+</body>
+</html>

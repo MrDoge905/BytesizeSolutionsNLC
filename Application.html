@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>
+          Application
+        </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="output.css">
+    </head>
+    <body class="bg-white">
+      <nav class="bg-white p-4 shadow-md shadow-gray-300 top-0 w-full fixed z-50">
+        <div class="container mx-auto flex items-center justify-between">
+            <div class="flex items-center">
+                <img src="new nav bar logo.png" alt="Logo" class="mr-2">
+            </div>
+            <div class="flex space-x-4">
+                <a data-aos="fade-up" data-aos-duration="500" href="index.html" class="text-orange-500 text-sm md:text-base">Home</a>
+                <a data-aos="fade-up" data-aos-duration="750" href="index.html#about" class="text-orange-500 text-sm md:text-base">About</a>
+                <a data-aos="fade-up" data-aos-duration="1000" href="index.html#services" class="text-orange-500 text-sm md:text-base">Services</a>
+                <a data-aos="fade-up" data-aos-duration="1250" href="index.html#the-team" class="text-orange-500 text-sm md:text-base">Team</a>
+                <a data-aos="fade-up" data-aos-duration="1500" href="index.html#FAQ" class="text-orange-500 text-sm md:text-base">FAQ</a>
+            </div>
+        </div>
+    </nav>
+    <div id="particles-js" class="absolute inset-0 h-full"></div>
+    <section class="flex justify-center p-24">
+      <form action="https://formcarry.com/s/siiOmk_FKG" method="POST" enctype="multipart/form-data" class="z-20 mx-auto bg-white p-6 rounded-md shadow-md shadow-orange-500">
+        <h1 class="text-3xl text-orange-500 text-center border-y-2 border-orange-500 p-2">Job Application</h1>
+
+        <!-- Name Fieldset -->
+        <fieldset class="mb-4">
+          <!-- Legend element allows me to make sections a for my form -->
+          <legend class="text-lg font-semibold">Name</legend>
+
+          <!-- First Name and Last Name -->
+          <!-- made a flexbox container using a div element to space them between eachother on one line-->
+
+          <div class="flex space-x-4">
+            <div class="w-1/2">
+              <label for="first_name" class="block text-black">First Name:</label>
+              <input required placeholder="Isaac" type="text" id="first_name" name="first_name" class="w-full px-4 py-2 border rounded-md bg-slate-200">
+            </div>
+    
+            <div class="w-1/2">
+              <label for="last_name" class="block text-black">Last Name:</label>
+              <input required placeholder="Bell" type="text" id="last_name" name="last_name" class="w-full px-4 py-2 border rounded-md bg-slate-200">
+            </div>
+          </div>
+        </fieldset>
+        
+        <legend class="text-lg font-semibold">Personal Info</legend>
+        <!-- Email Input -->
+        <div class="mb-4">
+          <label for="email" class="block text-black">Email:</label>
+          <input required placeholder="youremail@gmail.com" type="email" id="email" name="email" class="w-full px-4 py-2 border rounded-md bg-slate-200">
+        </div>
+
+        <!-- Date of Birth-->
+        <div class="mb-4">
+          <label for="date-of-birth" class="block text-black">DOB:</label>
+          <input required type="date" id="date-of-birth" name="birthday" class="w-full px-4 py-2 border rounded-md bg-slate-200">
+        </div>
+        
+        <!-- Address-->
+        <div class="mb-4">
+          <label for="home-address" class="block text-black">Address:</label>
+          <input required placeholder="123 Main Street" type="text" id="home-address" name="address" class="w-full px-4 py-2 border rounded-md bg-slate-200">
+        </div>
+
+        <!-- Phone Number-->
+        <fieldset class="mb-4">
+          <div class="flex space-x-4">
+            <div class="w-1/2">
+              <label for="first_phone" class="block text-black">Phone Number:</label>
+              <input required placeholder="(123)-456-7890" type="text" id="first_phone" name="first_Phone" class="w-full px-4 py-2 border rounded-md bg-slate-200">
+            </div>
+    
+            <div class="w-1/2">
+              <label for="alt_phone" class="block text-black">Alternate Phone:</label>
+              <input required placeholder="(234)-567-8910" type="text" id="alt_phone" name="last_Phone" class="w-full px-4 py-2 border rounded-md bg-slate-200">
+            </div>
+          </div>
+        </fieldset>
+
+        <!-- Social Security Number -->
+        <div class="mb-4">
+          <label for="Social-Security" class="block text-black">SSN:</label>
+          <input required placeholder="XXX-XX-XXXX" type="text" id="Social-Security" name="SSN" class="w-full px-4 py-2 border rounded-md bg-slate-200">
+        </div>
+
+         <!-- Age -->
+         <div class="mb-4">
+          <label for="Age" class="block text-black">Age:</label>
+          <input min="16" max="100" required type="number" id="Age" name="Age" class="w-full px-4 py-2 border rounded-md bg-slate-200">
+        </div>
+
+        <!-- Emergency Contact-->
+        <fieldset class="mb-4">
+          <div class="flex space-x-4">
+            <div class="w-1/2">
+              <label for="emergency-name" class="block text-black">Emergency Contact Name:</label>
+              <input required placeholder="(123)-456-7890" type="text" id="emergency-name" name="Emergency_Name" class="w-full px-4 py-2 border rounded-md bg-slate-200">
+            </div>
+    
+            <div class="w-1/2">
+              <label for="emergency-phone" class="block text-black">Emergency Contact Phone:</label>
+              <input required placeholder="(234)-567-8910" type="text" id="emergency-phone" name="Emergency_Phone" class="w-full px-4 py-2 border rounded-md bg-slate-200">
+            </div>
+          </div>
+        </fieldset>
+
+
+        <legend class="text-lg font-semibold">Job Type and info</legend>
+        
+        <!--  Job Title -->
+        <div class="mb-4">
+          <label for="Job-Position" class="block text-gray-600">Job Position:</label>
+          <select name="position" id="Job-Position" class="w-full px-4 py-2 border rounded-md bg-slate-200">
+            <option value="JavaScript Developer">JavaScript Developer</option>
+            <option value="Python Developer">Python Developer</option>
+            <option value="Frontend Developer">Frontend Web Developer</option>
+          </select>
+        </div>
+
+        <!-- Job Type -->
+        <h3 class="text-black p-2">What job type are you seeking</h3>
+        <fieldset class="inline">
+          <label for="Full-Time" class="text-gray-700 p-2"><input value="full-time" id="Full-Time" type="radio" name="position">Full-Time</label>
+          <label for="Part-Time" class="text-gray-700 p-2"><input value="part-time" id="Part-Time" type="radio" name="position">Part-Time</label>
+          <label for="flexible" class="text-gray-700 p-2"><input value="flexible" id="flexible" type="radio" name="position">Flexible</label>
+        </fieldset>
+
+        <legend class="text-lg font-semibold p-2">Additional Info</legend>
+        <!-- Employed?-->
+        <h3 class="text-black p-2">Have you been employed by Bytesize Solution's</h3>
+        <fieldset class="inline">
+          <label for="employed-yes" class="text-gray-700 p-2"><input value="yes" id="employed-yes" type="radio" name="employed">Yes</label>
+          <label for="employed-no" class="text-gray-700 p-2"><input value="no" id="employed-no" type="radio" name="employed">No</label>
+        </fieldset>
+
+        <!-- Citizen?-->
+        <h3 class="text-black p-2">I certify that I am a U.S. citizen, permanent resident, or a foreign national with
+          authorization to work in the United States.</h3>
+        <fieldset class="inline">
+          <label for="citizen-yes" class="text-gray-700 p-2"><input value="yes" id="citizen-yes" type="radio" name="citizen">Yes</label>
+          <label for="citizen-no" class="text-gray-700 p-2"><input value="no" id="citizen-no" type="radio" name="citizen">No</label>
+        </fieldset>
+
+        <!-- Drivers License? -->
+        <h3 class="text-black p-2">Do you have a drivers license?</h3>
+        <fieldset class="inline">
+          <label for="driver-yes" class="text-gray-700 p-2"><input value="yes" id="driver-yes" type="radio" name="driver">Yes</label>
+          <label for="driver-no" class="text-gray-700 p-2"><input value="no" id="driver-no" type="radio" name="driver">No</label>
+        </fieldset>
+
+        <!-- Felony? -->
+        <h3 class="text-black p-2">Have you ever been convicted of, or entered a plea of guilty, no contest, or had a withheld judgment to a felony?</h3>
+        <fieldset class="inline">
+          <label for="felony-yes" class="text-gray-700 p-2"><input value="yes" id="felony-yes" type="radio" name="felony">Yes</label>
+          <label for="felony-no" class="text-gray-700 p-2"><input value="no" id="felony-no" type="radio" name="felony">No</label>
+        </fieldset>
+
+        <div class="mb-4">
+          <label for="felony-explanation" class="block text-black">If yes, please explain.</label>
+          <input placeholder="Felony Reason" type="text" id="felony-explanation" name="reason" class="w-full px-4 py-2 border rounded-md bg-slate-200">
+        </div>
+
+        <legend class="text-lg font-semibold">Education</legend>
+        <!-- High School Education-->
+        <fieldset class="mb-4">
+          <div class="flex space-x-4">
+            <div class="w-1/2">
+              <label for="school_name" class="block text-black">High School:</label>
+              <input required placeholder="Somerset SH" type="text" id="school_name" name="school name" class="w-full px-4 py-2 border rounded-md bg-slate-200">
+            </div>
+    
+            <div class="w-1/2">
+              <label for="school_address" class="block text-black">High School Address:</label>
+              <input required placeholder="123 Main St" type="text" id="school_address" name="school_address" class="w-full px-4 py-2 border rounded-md bg-slate-200">
+            </div>
+          </div>
+        </fieldset>
+
+        <!-- Trade School-->
+        <fieldset class="mb-4">
+          <div class="flex space-x-4">
+            <div class="w-1/2">
+              <label for="trade_name" class="block text-black">Trade School Name:</label>
+              <input placeholder="Somerset CTC" type="text" id="trade_name" name="trade name" class="w-full px-4 py-2 border rounded-md bg-slate-200">
+            </div>
+    
+            <div class="w-1/2">
+              <label for="trade_address" class="block text-black">Trade School Address:</label>
+              <input placeholder="567 Trade Ave" type="text" id="trade_address" name="trade address" class="w-full px-4 py-2 border rounded-md bg-slate-200">
+            </div>
+          </div>
+        </fieldset>
+        <!-- Trade Studied-->
+        <div class="mb-4">
+          <label for="trade_skill" class="block text-black">Trade Skill:</label>
+          <input placeholder="Computer Networking" type="text" id="trade_skill" name="trade" class="w-full px-4 py-2 border rounded-md bg-slate-200">
+        </div>
+        
+        <!-- This is what makes my captcha box -->
+        <div class="h-captcha flex justify-center p-4" data-sitekey="adc63991-017e-475a-ae16-f76b284cfbfa" data-theme="dark"></div>
+        <!-- Submit Button -->
+        <div>
+          <button type="submit" class="w-full bg-orange-500 text-white py-2 rounded-md hover:bg-orange-600">Submit</button>
+        </div>
+      </form>
+    </section>
+    <footer class="bg-slate-300">
+      <div class="text-center flex flex-wrap justify-center">
+          <div class="p-4"><a href="http://icons8.com/icons" target="_blank">Icons8 Icons</a></div>
+          <div class="p-4"><a href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a></div>
+          <div class="p-4"><a href="https://www.stickpng.com/img/icons-logos-emojis/tech-companies/python-logo" target="_blank">Python Icon</a></div>
+          <div class="p-4"><a href="https://www.stickpng.com/img/icons-logos-emojis/tech-companies/w3c-html5-logo" target="_blank">HTML Icon</a></div>
+          <div class="p-4"><a href="https://www.stickpng.com/img/icons-logos-emojis/iconic-brands/javascript-logo" target="_blank">JavaScript Logo</a></div>
+          <div class="p-4"><a href="https://vincentgarreau.com/particles.js/" target="_blank">Particles.js</a></div>
+          <div class="p-4"><a href="https://www.adobe.com/express/" target="_blank">Adobe Express</a></div>
+          <div class="p-4"><a href="https://michalsnik.github.io/aos/" target="_blank">AOS animation</a></div>
+          <div class="p-4"><a href="https://docs.hcaptcha.com/" target="_blank">Captcha</a></div>
+          <div class="p-4"><a href="https://formcarry.com/" target="_blank">Formcarry</a></div>
+          <div class="p-4"><a href="https://quillbot.com/grammar-check" target="_blank">Quillbot Grammar</a></div>
+      </div>
+      <div class="text-center flex justify-center">
+          <div class="p-4"><a href="">ByteSize Solutions LLC.</a></div>
+      </div>
+  </footer>
+    <!-- this is to notify users the form requirements for the form to be properly submitted -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        alert("THE JOB APPLICATION WILL NOT SUBMIT IF ALL OF THE REQUIRED FIELDS ARE NOT FILLED AND THE CAPTCHA TEST IS NOT PASSED.");
+      });
+
+    </script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+  
+    <script src="https://js.hcaptcha.com/1/api.js?hl=en" async defer></script>
+  </body>
+  
+  
+</html>
